@@ -1,9 +1,41 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+<<<<<<< HEAD
 *{
     margin:0px;
     padding:0px;
 }
 .bg { 
+=======
+body {
+    height: 100%;
+	}
+body {
+      /*background: #e74c3c;*/
+    /*  padding: 50px 0 0;
+    */  font-weight: 400;
+      font-family: 'Lato', Arial, sans-serif;
+      font-size: 1.6rem;
+     /* font-family: "Open Sans", sans-serif;*/
+      color: #2c343b;
+     /* background-color: #f2f2f2;*/
+     background-color: #7f9b4e;  
+    }
+
+section {
+  background:#4F5F56;
+  /*padding-top: 50px;*/
+  width: 100%;
+  max-width: 46em;
+  text-align: justify;
+  padding: 1em 2em 0;
+  margin: 0 auto;
+  color: #d44457;
+  line-height: 1.3;
+  font-size: 1.8em;
+}
+.bg { 
+
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
     /* Full height */
     height: 100%; 
 
@@ -12,16 +44,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 }  
+<<<<<<< HEAD
 .container > header {
     margin: 0px;
     padding: 20px 10px 0px 10px;
     position: relative;
     display: block;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+=======
+
+.container > header {
+	margin: 0%;
+	padding: 10px 10px 0px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
     text-align: center;
 }
 
 .container > header h1 {
+<<<<<<< HEAD
     font-size: 30px;
     line-height: 38px;
     margin: 0;
@@ -76,6 +119,62 @@ header h1{
     position: absolute;#
     top: 0;
     width: 100%;
+=======
+	font-size: 30px;
+	line-height: 38px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #666;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+}
+
+.container > header h2 {
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #666;
+	font-family: Cambria, Georgia, serif;
+	font-style: italic;
+/*	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+*/}                  
+.main {
+/*	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0;*/
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.clr {
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.navbar a{
+	color: white;
+}
+.navbar-nav li a:hover {
+	background: orange;
+}
+header{
+	height: 450px;
+	padding: 50px;
+	color: black;
+}
+header h1{
+	font-size: 50px;
+}
+.navbar-custom{
+	position: fixed;
+	top: 0;
+	width: 100%;
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
 }
 .navbar-header a{
 size:25px;
@@ -108,6 +207,7 @@ border: 0;
 color: white;
 }
 .nav-center{
+<<<<<<< HEAD
     float: none;
     display: table;
     table-layout: fixed;
@@ -121,6 +221,21 @@ color: white;
     color: #fff;
     text-shadow: 0 1px 1px rgba(0,0,0,0.7);
     }
+=======
+	float: none;
+	display: table;
+	table-layout: fixed;
+	margin: 0 auto;
+}
+.nav-center li:hover{
+	background: white;
+}
+.container > header h1,
+.container > header h2 {
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+	}
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
 .form-0 {
     /* Size and position */
     width: 300px;
@@ -239,16 +354,27 @@ color: white;
 .no-boxshadow .form-0 input[type=submit]:hover {
     background: #594642;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
 #menu10 ul {
     list-style:none;
     font-family: Georgia, serif;
     font-size: 40px;
+<<<<<<< HEAD
     letter-spacing: 3px;
     line-height: 1.2em;
     float:left;
     clear:both;
     margin-left:8%;
+=======
+    letter-spacing: -3px;
+    line-height: 1.2em;
+    float:none;
+   /* clear:both;*/
+    margin:0px;
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
     border:3px solid #5F3B2F;
 }
 #menu10 ul li{
@@ -259,7 +385,11 @@ color: white;
     text-decoration:none;
     padding:5px 10px 5px 10px;
     background-color:#955542;
+<<<<<<< HEAD
     width:240px;
+=======
+    width:200px;
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
     text-align:center;
 }
 #menu10 ul li a span{
@@ -267,7 +397,11 @@ color: white;
 }
 #menu10 ul li a span.title{
     color:#fff;
+<<<<<<< HEAD
     padding-bottom:0px;
+=======
+    padding-bottom:5px;
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
 }
 #menu10 ul li a:hover{
 
@@ -299,4 +433,8 @@ color: white;
 #menu10 ul li a:hover span.text{
     line-height: 3.4em;
     visibility:visible;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 76ca1a60cd48a29df888bc4f56f9c85ba173fbec
