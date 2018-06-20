@@ -239,7 +239,6 @@ color: white;
 .no-boxshadow .form-0 input[type=submit]:hover {
     background: #594642;
 }
-
 #menu10 ul {
     list-style:none;
     font-family: Georgia, serif;
@@ -300,3 +299,4 @@ color: white;
     line-height: 3.4em;
     visibility:visible;
 }
+
