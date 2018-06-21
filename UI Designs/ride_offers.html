@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>My Ride</title>
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style>	
+			body {
+				background: #7f9b4e;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+			}
+		</style>
+	    </head>
+    <body>
+    		<header style="height:50px; padding: 40px;" >
+				<div id="menu10">
+		            <ul>
+		                <li><a href="index.html">
+		                        <span class="title">About</span>
+		                        <span class="text">What the App Does</span>
+		                    </a>
+		                </li>
+		                <li><a href="ride_offers.html">
+		                        <span class="title">Ride Offers</span>
+		                        <span class="text">See Available Offers</span>
+		                    </a>
+		                </li>
+		                <li><a href="offer_ride.html">
+		                        <span class="title">Offer Rides</span>
+		                        <span class="text">Create a ride Offer</span>
+		                    </a>
+		                </li>
+		                <li><a href="profile.html">
+		                        <span class="title">My Profile</span>
+		                        <span class="text">My Activities</span>
+		                    </a>
+		                </li>
+		            </ul>
+        		</div>
+			</header>
+			<section class="other_pages">
+			<h1 style="color: white; font-size: 300%; margin-top: 30px;">Your Ride Offers</h1>
+				<div class="md-modal md-effect-1" id="modal-1">
+					<div class="md-content">
+						<h3>Ride Details</h3>
+						<div>
+							<p>Below ar the details for your ride</p>
+							<ul>
+								<li><strong>Date:</strong> Your Ride took place at this day of the month, this time of the day.</li>
+								<li><strong>Pick Up:</strong> Your Pick Up Location was at this point of the city.</li>
+								<li><strong>Destination:</strong>You were Taken to this point of the City.</li>
+							</ul>
+							<button class="md-close">Close me!</button>
+						</div>
+					</div>
+				</div>	
+				<div class="column">
+					<button class="md-trigger" data-modal="modal-1">Ride 1 &amp; Details</button>
+				</div>
+				<div class="column">
+					<button class="md-trigger" data-modal="modal-1">Ride 2 &amp; Details</button>
+				</div>
+				<div class="column">
+					<button class="md-trigger" data-modal="modal-1">Ride 3 &amp; Details</button>
+				</div>
+				<div class="column">
+					<button class="md-trigger" data-modal="modal-1">Ride 4 &amp; Details</button>
+				</div>
+				<div class="md-overlay"></div><!-- the overlay element -->
+			</section>
+			<script src="js/classie.js"></script>
+			<script src="js/modalEffects.js"></script>
+    </body>
+</html>
