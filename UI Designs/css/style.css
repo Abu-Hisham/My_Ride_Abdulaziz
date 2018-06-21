@@ -315,10 +315,10 @@ color: white;
 Form Styling for Offer Rides
 ----------------------*/
 *
-a {
+/*a {
     color: #656565;
     text-decoration:none;
-}
+}*/
 a:hover{
     color: #abda0f;
     text-decoration: none;
@@ -350,7 +350,6 @@ form p{
     font-size: 8pt;
     clear:both;
     margin: 0;
-    color:gray;
     padding:4px;
 }
 form.register fieldset.row1
@@ -557,7 +556,7 @@ button:hover {
     perspective: 600px;
 }
 
-.container {
+.container .rides {
     background: #e74c3c;
     min-height: 100%;
 }
